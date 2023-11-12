@@ -1,4 +1,4 @@
-*{
+ *{
     box-sizing: border-box;
     margin: 0;
     padding: 0;
@@ -11,6 +11,159 @@ body {
     font-size: 12px;
     margin: 0;
 }
+
+.precio {
+    font-size: 18px;
+}
+
+.desc {
+    font-size: 16px;
+  }
+  
+  .desc b {
+    color: #666;
+  }
+
+  .cuotas {
+    text-align: center;
+    margin-top: 5%;
+  }
+
+  .lista {
+    list-style: none;
+    margin-top: 5%;
+  }
+
+  .lista a {
+    text-decoration: none;
+    color: black;
+  }
+
+  .burger-menu {
+    text-align: center;
+    color: white;
+    background-color: #1259c3;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    margin-left: 43%;
+    margin-right: 43%;
+    border-radius: 5px;
+    font-size: 20px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+  }
+
+  footer {
+    text-align: center;
+    background-color: white;
+  }
+  
+  footer i {
+    color: #1259c3;
+    font-size: 2em;
+    margin-bottom: 10px;
+    padding-top: 50px;
+  }
+  
+  footer p b {
+    font-size: 15px;
+  }
+
+  .iconos {
+    padding-left: 12%;
+    padding-right: 12%;
+  }
+  
+  .copyright {
+    text-align: start;
+    margin-top: 40px;
+    padding-bottom: 20px;
+    padding-left: 15px;
+  }
+
+  img {
+    width: 100%;
+    height: auto;
+  }
+
+  
+section {
+    padding: 0 5% 0 5%;
+  }
+
+  main {
+    background-color: #ebebeb;
+    padding-bottom: 1px;
+  }
+
+  .producto {
+    background-color: white;
+    margin-bottom: 10px;
+  }
+  .detalle {
+    border-top: 1px solid #ebebeb;
+    padding-left: 15px;
+    padding-right: 15px;
+    position: relative;
+  }
+
+  .detalle .off {
+    color: #39b54a;
+  }
+
+  .logoTruck {
+    display: block;
+    font-size: 16px;
+    padding: 5px;
+    width: 30px;
+    height: 30px;
+    border: 1px solid #39b54a;
+    background-color: #fff;
+    border-radius: 50%;
+    position: absolute;
+    right: 20px;
+    top: -15px;
+    
+  }
+
+  .logoTruck i {
+    color: #39b54a;
+  }
+
+  .buscador {
+    padding-left: 5%;
+  }
+  .logoML {
+    width: 50%;
+    padding-top: 30px;
+    padding-left: 30px;
+    margin-bottom: 5%;
+  }
+
+  .productos {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10%;
+    justify-content: center;
+  }
+
+  @media (min-width: 361px){
+    .producto{
+        box-shadow: 0px 0px 10px rgb(100, 100, 100);
+        width: 40%;
+    }
+  }
+
+ @media (min-width:769px){
+    .productos {
+        gap: 5%;
+    }
+    .producto{
+        width: 20%;
+    }
+ }
+
+/*
 
 .logo{
     width: 10%;
@@ -51,23 +204,22 @@ body {
 }
 /* Estilos en la main */
 
-.main-container {
+/* .main-container {
     display: flex;
    
-    /* flex-wrap: wrap; */
     
     background-color: #ebebeb;
-}
+} */
 
-.main-section {
+/* .main-section {
     font-size: 24px;
     justify-content: space-around;
     align-items: center;
-/* background-color: white; */
-    
-}
 
-article {
+    
+} */
+
+/* article {
    
     background-color: white;
     text-align: center;
@@ -75,35 +227,32 @@ article {
 
 .main-container img {
     width: 90%;
-}
+} */
 
-.camion {
+/* .camion {
     display: inline-block;
-    /* background-color: red; */
    
     color: #39b54a;
     border:  solid #39b54a 1px;
     border-radius: 15px ;
-}
+} */
 
-.precio {
-    font-size: 18px;
-}
 
-.descuento {
+
+/* .descuento {
     font-size: 16px;
     color: #39b54a;
-}
+} */
 
 
-.description {
+/* .description {
     font-size: 16px;
-}
+}  */
 
 
 /* ESTILOS PARA EL FOOTER*/
 
-footer{
+/* footer{
     background-color: white;
     text-align: center;
 }
@@ -112,4 +261,5 @@ footer i {
     font-size: 2em;
     margin-top: 10px;
     color: #1259c3;
-}
+} */
+
