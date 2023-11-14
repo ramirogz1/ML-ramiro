@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/register.css">
+    <title>Register</title>
+</head>
+<body>
+    <header class="main-header">
+        <div class="main-header-top-bar">
+            <img src="images/logo-mercado-liebre.svg" alt="" class="logo">
+            <h2 class="copy-header">
+                Formulario de Registro
+            </h2>
+        </div>
+
+      </header>
+    <form action=""  class="create-form">
+        <div class="control-formulario">
+            <label>Nombre y apellido</label>
+            <input type="text" name="nombre-y-apellido" class="control" placeholder="nombre y apellido">
+        </div>
+        <div class="control-formulario">
+            <label>Nombre de Usuari@</label>
+            <input type="text" name="usuario" class="control">
+        </div>
+        <div class="control-formulario">
+            <label>Email</label>
+            <input type="email" name="email" class="control">
+        </div>
+        <div class="control-formulario">
+            <label><b>Fecha de nacimiento</b></label>
+            <input type="date" name="fecha-de-nacimiento" class="control">
+        </div>
+        <div class="control-formulario">
+            <label>Domicilio</label>
+            <input type="text" name="domicilio" class="control">
+        </div>
+        <div class="control-formulario">
+            <label>Perfil De Usuario</label>
+            <div class="option-usuario">
+
+                <label>Comprador</label>
+                <input type="radio" name="perfil" value="Comprador" class="control">
+               <label>Vendedor</label>
+                <input type="radio" name="perfil" value="Vendedor" class="control">
+            </div>
+        </div>
+        <div class="control-formulario">
+            <label><b>Intereses:</b></label>
+            <div>
+                <label>Electro</label>
+                <input type="checkbox" name="categoria" value="electro">
+            </div>
+            <div>
+                <label>Moda</label>
+                <input type="checkbox" name="categoria" value="moda">
+            </div>
+            <div>
+                <label>Hogar</label>
+                <input type="checkbox" name="categoria" value="hogar">
+            </div>
+            <div>
+                <label>Jugueteria</label>
+                <input type="checkbox" name="categoria" value="jugueteria">
+            </div>
+            <div>
+                <label>Vida Sana</label>
+                <input type="checkbox" name="categoria" value="vidaSana">
+            </div>
+        </div>
+        <div class="control-formulario">
+            <input type="file" name="avatar" accept=".jpg">
+        </div>
+        <div class="control-formulario">
+            <label>Contraseña</label>
+            <input type="password">
+        </div>
+        <div class="control-formulario">
+            <label>Confirmar contraseña</label>
+            <input type="password">
+        </div>
+        <button type="submit" class="boton-formulario">Guardar</button>
+        <button type="reset" class="boton-formulario">Borrar</button>
+        
+    </form>
+    <!-- <button class="boton-formulario"><a href="/"></a>Atras</button> -->
+</body>
+</html>

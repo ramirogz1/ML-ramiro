@@ -1,0 +1,125 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+  
+  body {
+    background-color: #eac926;
+    font-family: "Roboto", sans-serif;
+    font-size: 12px;
+    margin: 0;
+  }
+  
+  .main-header {
+    background-color: #eac926 ;
+    padding: 20px;
+  }
+  
+  .main-navbar {
+    display: flex;
+    justify-content: space-between;
+  }
+  .main-navbar ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .main-navbar a {
+    text-decoration: none;
+    color: #222222;
+    display: inline-block;
+    padding: 5px 0;
+    font-size: 17px;
+  }
+  
+  /* copiado */
+  .logo {
+    width: 250px;
+  }
+  .main-header-top-bar,
+  .main-navbar {
+    max-width: 1200px;
+    margin: auto;
+  }
+  
+  .main-header-top-bar {
+    display: flex;
+    /* align-items: center; */
+    justify-content: space-between;
+  }
+  
+  
+  .copy-header {
+     margin: 0;
+    max-width: none;
+    font-size: 22px;
+    font-weight: 400; 
+    /* max-width: 350px; */
+    text-align: right;
+  }
+  
+  .main-navbar {
+    margin-top: 40px;
+  }
+  
+  .main-navbar li {
+    margin: 0 10px;
+  }
+  .main-navbar a {
+    font-size: 19px;
+  }
+  
+  
+  
+  .hamburguer-button {
+    display: none;
+  } 
+
+
+  .create-form {
+    padding: 25px;
+    background-color: #ebebeb;
+}
+
+.control-formulario {
+    margin-bottom: 15px;
+}
+
+.control {
+    width: 100%;
+    padding: 8px 8px;
+    border: none;
+    border-radius: 5px;
+}
+
+.boton-formulario {
+    background-color: #1259c3;
+    border: none;
+    font-size: 20px;
+    color: #ffffff;
+    padding: 5px 10px;
+    border-radius: 5px;
+   
+}
+
+.btn {
+    text-align: center;
+}
+
+footer {
+    text-align: center;
+    background-color: white;
+  }
+  
+  footer i {
+    color: #1259c3;
+    font-size: 2em;
+    margin-bottom: 10px;
+    padding-top: 50px;
+  }
+  
+  footer p b {
+    font-size: 15px;
+  }
